@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "my-single-page-app",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
